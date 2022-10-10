@@ -1,0 +1,41 @@
+{
+  "name": "matomo-tracker",
+  "version": "2.2.4",
+  "description": "A wrapper for the Matomo tracking HTTP API",
+  "keywords": [
+    "piwik",
+    "matomo",
+    "analytics",
+    "tracking"
+  ],
+  "homepage": "https://github.com/matomo-org/matomo-nodejs-tracker",
+  "bugs": "https://github.com/matomo-org/matomo-nodejs-tracker/issues",
+  "author": {
+    "name": "Frederic Hemberger",
+    "url": "https://github.com/matomo-org"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matomo-org/matomo-nodejs-tracker.git"
+  },
+  "scripts": {
+    "test": "npm run mocha && npm run eslint",
+    "mocha": "mocha --reporter spec --exit",
+    "eslint": "eslint --max-warnings=0 index.js test/index.test.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.7.0",
+    "mocha": "^8.1.0",
+    "nock": "^13.0.3",
+    "sinon": "^9.0.3",
+    "sinon-chai": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,2681 @@
+serever is runing at port 4000
+Connected to MySQL Server
+🎉 We got an order!
+Phew, it came from Shopify!
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    date: 'Sun, 09 Oct 2022 20:42:13 GMT',
+    server: 'Apache/2.4.52 (Ubuntu)',
+    'cache-control': 'no-store',
+    'content-length': '43',
+    connection: 'close',
+    'content-type': 'image/gif',
+    [Symbol(defaults)]: null
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: null },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      'User-Agent': 'axios/1.1.2',
+      'Accept-Encoding': 'gzip, deflate, br',
+      [Symbol(defaults)]: [Object]
+    },
+    method: 'get',
+    url: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TG-60-FS-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%20BUY%202%20GET%201%20FREE%22%2C%22%22%2C%2245.98%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=73.97&ec_st=63.97&ec_tx=0.00&ec_sh=10.00&ec_dt=5.00&ec_id=1628271606&cip=null&country=us&city=Billtown',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'm.splittesting.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'm.splittesting.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 42,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TG-60-FS-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%20BUY%202%20GET%201%20FREE%22%2C%22%22%2C%2245.98%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=73.97&ec_st=63.97&ec_tx=0.00&ec_sh=10.00&ec_dt=5.00&ec_id=1628271606&cip=null&country=us&city=Billtown HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.1.2\r\n' +
+      'Accept-Encoding: gzip, deflate, br\r\n' +
+      'Host: m.splittesting.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TG-60-FS-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%20BUY%202%20GET%201%20FREE%22%2C%22%22%2C%2245.98%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=73.97&ec_st=63.97&ec_tx=0.00&ec_sh=10.00&ec_dt=5.00&ec_id=1628271606&cip=null&country=us&city=Billtown',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TG-60-FS-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%20BUY%202%20GET%201%20FREE%22%2C%22%22%2C%2245.98%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=73.97&ec_st=63.97&ec_tx=0.00&ec_sh=10.00&ec_dt=5.00&ec_id=1628271606&cip=null&country=us&city=Billtown',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 12,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'm.splittesting.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TG-60-FS-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%20BUY%202%20GET%201%20FREE%22%2C%22%22%2C%2245.98%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=73.97&ec_st=63.97&ec_tx=0.00&ec_sh=10.00&ec_dt=5.00&ec_id=1628271606&cip=null&country=us&city=Billtown',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: 'GIF89a\x01\x00\x01\x00�\x00\x00\x00\x00\x00\x00\x00\x00!�\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x01\x00\x01\x00\x00\x02\x02D\x01\x00;'
+}
+🎉 We got an order!
+Phew, it came from Shopify!
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    date: 'Sun, 09 Oct 2022 20:53:30 GMT',
+    server: 'Apache/2.4.52 (Ubuntu)',
+    'cache-control': 'no-store',
+    'content-length': '43',
+    connection: 'close',
+    'content-type': 'image/gif',
+    [Symbol(defaults)]: null
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: null },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      'User-Agent': 'axios/1.1.2',
+      'Accept-Encoding': 'gzip, deflate, br',
+      [Symbol(defaults)]: [Object]
+    },
+    method: 'get',
+    url: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-AC-60-FS-SM-3%22%2C%22Apple%20Cider%20Vinegar%20gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=59.97&ec_st=59.97&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31950773485733&cip=97.101.39.239&country=us&city=Ormond Beach',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'm.splittesting.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 10,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'm.splittesting.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 112,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-AC-60-FS-SM-3%22%2C%22Apple%20Cider%20Vinegar%20gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=59.97&ec_st=59.97&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31950773485733&cip=97.101.39.239&country=us&city=Ormond%20Beach HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.1.2\r\n' +
+      'Accept-Encoding: gzip, deflate, br\r\n' +
+      'Host: m.splittesting.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-AC-60-FS-SM-3%22%2C%22Apple%20Cider%20Vinegar%20gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=59.97&ec_st=59.97&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31950773485733&cip=97.101.39.239&country=us&city=Ormond%20Beach',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-AC-60-FS-SM-3%22%2C%22Apple%20Cider%20Vinegar%20gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=59.97&ec_st=59.97&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31950773485733&cip=97.101.39.239&country=us&city=Ormond%20Beach',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 12,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'm.splittesting.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-AC-60-FS-SM-3%22%2C%22Apple%20Cider%20Vinegar%20gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=59.97&ec_st=59.97&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31950773485733&cip=97.101.39.239&country=us&city=Ormond%20Beach',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: 'GIF89a\x01\x00\x01\x00�\x00\x00\x00\x00\x00\x00\x00\x00!�\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x01\x00\x01\x00\x00\x02\x02D\x01\x00;'
+}
+🎉 We got an order!
+Phew, it came from Shopify!
+serever is runing at port 4000
+Connected to MySQL Server
+🎉 We got an order!
+Phew, it came from Shopify!
+🎉 We got an order!
+Phew, it came from Shopify!
+serever is runing at port 4000
+Connected to MySQL Server
+🎉 We got an order!
+Phew, it came from Shopify!
+serever is runing at port 4000
+Connected to MySQL Server
+🎉 We got an order!
+Phew, it came from Shopify!
+serever is runing at port 4000
+Connected to MySQL Server
+🎉 We got an order!
+Phew, it came from Shopify!
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    date: 'Sun, 09 Oct 2022 22:10:19 GMT',
+    server: 'Apache/2.4.52 (Ubuntu)',
+    vary: 'Accept-Encoding',
+    'content-length': '5093',
+    connection: 'close',
+    'content-type': 'text/plain;charset=UTF-8',
+    [Symbol(defaults)]: null
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: null },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      'User-Agent': 'axios/1.1.2',
+      'Accept-Encoding': 'gzip, deflate, br',
+      [Symbol(defaults)]: [Object]
+    },
+    method: 'get',
+    url: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31997846093989&cip=107.146.160.228&country=us&city=Bessemer',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'm.splittesting.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'm.splittesting.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      write: [Function: writeAfterFIN],
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 87,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 5309,
+      [Symbol(kBytesWritten)]: 487,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31997846093989&cip=107.146.160.228&country=us&city=Bessemer HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.1.2\r\n' +
+      'Accept-Encoding: gzip, deflate, br\r\n' +
+      'Host: m.splittesting.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31997846093989&cip=107.146.160.228&country=us&city=Bessemer',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31997846093989&cip=107.146.160.228&country=us&city=Bessemer',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'm.splittesting.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31997846093989&cip=107.146.160.228&country=us&city=Bessemer',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: `[2022-10-09 22:10:19] piwik.DEBUG: Debug enabled - Input parameters: array (   'idsite' => '4',   'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',   'rec' => '1',   'idgoal' => '0',   'ec_items' => '[["JELB-TGB-60-SMP-SM-1","Turmeric & Ginger Gummies","","22.99",1]]',   'revenue' => '27.94',   'ec_st' => '22.99',   'ec_tx' => '0.00',   'ec_sh' => '4.95',   'ec_dt' => '0.00',   'ec_id' => '31997846093989',   'cip' => '107.146.160.228',   'country' => 'us',   'city' => 'Bessemer', ) {"params":"array (\\n  'idsite' => '4',\\n  'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',\\n  'rec' => '1',\\n  'idgoal' => '0',\\n  'ec_items' => '[[\\"JELB-TGB-60-SMP-SM-1\\",\\"Turmeric & Ginger Gummies\\",\\"\\",\\"22.99\\",1]]',\\n  'revenue' => '27.94',\\n  'ec_st' => '22.99',\\n  'ec_tx' => '0.00',\\n  'ec_sh' => '4.95',\\n  'ec_dt' => '0.00',\\n  'ec_id' => '31997846093989',\\n  'cip' => '107.146.160.228',\\n  'country' => 'us',\\n  'city' => 'Bessemer',\\n)"} {"class":"Piwik\\\\Tracker","request_id":"01ccd"}\n` +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Website 4 tracker cache was re-created. [] {"class":"Piwik\\\\Tracker\\\\Cache","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Current datetime: 2022-10-09 22:10:19 {"date":"2022-10-09 22:10:19"} {"class":"Piwik\\\\Tracker","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: General tracker cache was re-created. [] {"class":"PrivacyManager","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\Heartbeat\\Tracker\\PingRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\PagePerformance\\Tracker\\PerformanceDataProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\CustomDimensions\\Tracker\\CustomDimensionsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\CustomVariables\\Tracker\\CustomVariablesRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\HeatmapSessionRecording\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: UserSynchronizer::makeConfigured(): LDAP access synchronization not enabled. {"func":"makeConfigured"} {"class":"LoginLdap","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: UserSynchronizer::makeConfigured: configuring with defaultSitesWithViewAccess =  {"func":"makeConfigured","sites":""} {"class":"LoginLdap","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Auth\\Base::tryFallbackAuth: trying normal auth with token auth {"func":"tryFallbackAuth"} {"class":"LoginLdap","request_id":"01ccd"}\n' +
+    '\n' +
+    `[2022-10-09 22:10:19] piwik.DEBUG: Auth\\Base::tryFallbackAuth: normal auth returned result code 42 for user '' {"func":"tryFallbackAuth","code":42,"login":null} {"class":"LoginLdap","request_id":"01ccd"}\n` +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: token_auth is authenticated! [] {"class":"UserCountry","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:19] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: DoNotTrack header not found [] {"class":"PrivacyManager","request_id":"01ccd"}\n' +
+    '\n' +
+    `[2022-10-09 22:10:20] piwik.DEBUG: Visitor doesn't have the piwik cookie... [] {"class":"CoreHome","request_id":"01ccd"}\n` +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: The visitor was not matched with an existing visitor... [] {"class":"CoreHome","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: (this is not a Site Search request) [] {"class":"Actions","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: WARNING: URL looks invalid and is discarded [] {"class":"Actions","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Excluding parameters "ignore_referrer,ignore_referer,gclid,fbclid,msclkid,yclid,fb_xd_fragment,fb_comment_id,phpsessid,jsessionid,sessionid,aspsessionid,doing_wp_cron,sid,pk_vid,pk_cpn,pk_campaign,piwik_campaign,mtm_campaign,matomo_campaign,utm_campaign,utm_source,utm_medium,pk_kwd,pk_keyword,piwik_kwd,mtm_kwd,mtm_keyword,matomo_kwd,utm_term,pk_hsr_capturescreen,pk_hsr_forcesample" from URL [] {"class":"Actions","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: WARNING: URL looks invalid and is discarded [] {"class":"Actions","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Action is a PAGE_URL, Action name = , Action URL =  {"type":"PAGE_URL","name":"","url":false} {"class":"Actions","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\Heartbeat\\Tracker\\PingRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\PagePerformance\\Tracker\\PerformanceDataProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\CustomDimensions\\Tracker\\CustomDimensionsRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\CustomVariables\\Tracker\\CustomVariablesRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\HeatmapSessionRecording\\Tracker\\RequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Visitor IP (was: 107.146.160.228) has been anonymized: 107.146.0.0 [] {"class":"PrivacyManager","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\Heartbeat\\Tracker\\PingRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\PagePerformance\\Tracker\\PerformanceDataProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBUG: Executing Piwik\\Plugins\\CustomDimensions\\Tracker\\CustomDimensionsRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"01ccd"}\n' +
+    '\n' +
+    '[2022-10-09 22:10:20] piwik.DEBU'... 24067 more characters
+}
+🎉 We got an order!
+Phew, it came from Shopify!
+🎉 We got an order!
+Phew, it came from Shopify!
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    date: 'Sun, 09 Oct 2022 22:19:10 GMT',
+    server: 'Apache/2.4.52 (Ubuntu)',
+    vary: 'Accept-Encoding',
+    'content-length': '5099',
+    connection: 'close',
+    'content-type': 'text/plain;charset=UTF-8',
+    [Symbol(defaults)]: null
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: null },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      'User-Agent': 'axios/1.1.2',
+      'Accept-Encoding': 'gzip, deflate, br',
+      [Symbol(defaults)]: [Object]
+    },
+    method: 'get',
+    url: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31993152241829&cip=107.77.215.142&country=us&city=St Thomas',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'm.splittesting.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'm.splittesting.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      write: [Function: writeAfterFIN],
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 187,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 5315,
+      [Symbol(kBytesWritten)]: 489,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31993152241829&cip=107.77.215.142&country=us&city=St%20Thomas HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.1.2\r\n' +
+      'Accept-Encoding: gzip, deflate, br\r\n' +
+      'Host: m.splittesting.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31993152241829&cip=107.77.215.142&country=us&city=St%20Thomas',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31993152241829&cip=107.77.215.142&country=us&city=St%20Thomas',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'm.splittesting.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31993152241829&cip=107.77.215.142&country=us&city=St%20Thomas',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: `[2022-10-09 22:19:10] piwik.DEBUG: Debug enabled - Input parameters: array (   'idsite' => '4',   'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',   'rec' => '1',   'idgoal' => '0',   'ec_items' => '[["JELB-TGB-60-SMP-SM-1","Turmeric & Ginger Gummies","","22.99",1]]',   'revenue' => '27.94',   'ec_st' => '22.99',   'ec_tx' => '0.00',   'ec_sh' => '4.95',   'ec_dt' => '0.00',   'ec_id' => '31993152241829',   'cip' => '107.77.215.142',   'country' => 'us',   'city' => 'St Thomas', ) {"params":"array (\\n  'idsite' => '4',\\n  'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',\\n  'rec' => '1',\\n  'idgoal' => '0',\\n  'ec_items' => '[[\\"JELB-TGB-60-SMP-SM-1\\",\\"Turmeric & Ginger Gummies\\",\\"\\",\\"22.99\\",1]]',\\n  'revenue' => '27.94',\\n  'ec_st' => '22.99',\\n  'ec_tx' => '0.00',\\n  'ec_sh' => '4.95',\\n  'ec_dt' => '0.00',\\n  'ec_id' => '31993152241829',\\n  'cip' => '107.77.215.142',\\n  'country' => 'us',\\n  'city' => 'St Thomas',\\n)"} {"class":"Piwik\\\\Tracker","request_id":"58746"}\n` +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Website 4 tracker cache was re-created. [] {"class":"Piwik\\\\Tracker\\\\Cache","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Current datetime: 2022-10-09 22:19:10 {"date":"2022-10-09 22:19:10"} {"class":"Piwik\\\\Tracker","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: General tracker cache was re-created. [] {"class":"PrivacyManager","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Heartbeat\\Tracker\\PingRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\PagePerformance\\Tracker\\PerformanceDataProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\CustomDimensions\\Tracker\\CustomDimensionsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\CustomVariables\\Tracker\\CustomVariablesRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\HeatmapSessionRecording\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: UserSynchronizer::makeConfigured(): LDAP access synchronization not enabled. {"func":"makeConfigured"} {"class":"LoginLdap","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: UserSynchronizer::makeConfigured: configuring with defaultSitesWithViewAccess =  {"func":"makeConfigured","sites":""} {"class":"LoginLdap","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Auth\\Base::tryFallbackAuth: trying normal auth with token auth {"func":"tryFallbackAuth"} {"class":"LoginLdap","request_id":"58746"}\n' +
+    '\n' +
+    `[2022-10-09 22:19:10] piwik.DEBUG: Auth\\Base::tryFallbackAuth: normal auth returned result code 42 for user '' {"func":"tryFallbackAuth","code":42,"login":null} {"class":"LoginLdap","request_id":"58746"}\n` +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: token_auth is authenticated! [] {"class":"UserCountry","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: DoNotTrack header not found [] {"class":"PrivacyManager","request_id":"58746"}\n' +
+    '\n' +
+    `[2022-10-09 22:19:10] piwik.DEBUG: Visitor doesn't have the piwik cookie... [] {"class":"CoreHome","request_id":"58746"}\n` +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: The visitor was not matched with an existing visitor... [] {"class":"CoreHome","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: (this is not a Site Search request) [] {"class":"Actions","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: WARNING: URL looks invalid and is discarded [] {"class":"Actions","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Excluding parameters "ignore_referrer,ignore_referer,gclid,fbclid,msclkid,yclid,fb_xd_fragment,fb_comment_id,phpsessid,jsessionid,sessionid,aspsessionid,doing_wp_cron,sid,pk_vid,pk_cpn,pk_campaign,piwik_campaign,mtm_campaign,matomo_campaign,utm_campaign,utm_source,utm_medium,pk_kwd,pk_keyword,piwik_kwd,mtm_kwd,mtm_keyword,matomo_kwd,utm_term,pk_hsr_capturescreen,pk_hsr_forcesample" from URL [] {"class":"Actions","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: WARNING: URL looks invalid and is discarded [] {"class":"Actions","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Action is a PAGE_URL, Action name = , Action URL =  {"type":"PAGE_URL","name":"","url":false} {"class":"Actions","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Heartbeat\\Tracker\\PingRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\PagePerformance\\Tracker\\PerformanceDataProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\CustomDimensions\\Tracker\\CustomDimensionsRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\CustomVariables\\Tracker\\CustomVariablesRequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\HeatmapSessionRecording\\Tracker\\RequestProcessor::processRequestParams()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Visitor IP (was: 107.77.215.142) has been anonymized: 107.77.0.0 [] {"class":"PrivacyManager","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\Heartbeat\\Tracker\\PingRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\PagePerformance\\Tracker\\PerformanceDataProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG: Executing Piwik\\Plugins\\CustomDimensions\\Tracker\\CustomDimensionsRequestProcessor::afterRequestProcessed()... [] {"class":"Piwik\\\\Common","request_id":"58746"}\n' +
+    '\n' +
+    '[2022-10-09 22:19:10] piwik.DEBUG:'... 24128 more characters
+}
+🎉 We got an order!
+Phew, it came from Shopify!
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    date: 'Sun, 09 Oct 2022 22:37:59 GMT',
+    server: 'Apache/2.4.52 (Ubuntu)',
+    vary: 'Accept-Encoding',
+    'content-length': '4625',
+    connection: 'close',
+    'content-type': 'text/plain;charset=UTF-8',
+    [Symbol(defaults)]: null
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: null },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      'User-Agent': 'axios/1.1.2',
+      'Accept-Encoding': 'gzip, deflate, br',
+      [Symbol(defaults)]: [Object]
+    },
+    method: 'get',
+    url: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-5%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2286.99%22%2C1%5D%5D&revenue=86.99&ec_st=86.99&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31930504839333&cip=98.254.164.14&country=us&city=Coconut Creek',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'm.splittesting.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'm.splittesting.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      write: [Function: writeAfterFIN],
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 243,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 4841,
+      [Symbol(kBytesWritten)]: 492,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-5%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2286.99%22%2C1%5D%5D&revenue=86.99&ec_st=86.99&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31930504839333&cip=98.254.164.14&country=us&city=Coconut%20Creek HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.1.2\r\n' +
+      'Accept-Encoding: gzip, deflate, br\r\n' +
+      'Host: m.splittesting.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-5%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2286.99%22%2C1%5D%5D&revenue=86.99&ec_st=86.99&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31930504839333&cip=98.254.164.14&country=us&city=Coconut%20Creek',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-5%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2286.99%22%2C1%5D%5D&revenue=86.99&ec_st=86.99&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31930504839333&cip=98.254.164.14&country=us&city=Coconut%20Creek',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'm.splittesting.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-5%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2286.99%22%2C1%5D%5D&revenue=86.99&ec_st=86.99&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31930504839333&cip=98.254.164.14&country=us&city=Coconut%20Creek',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: `[2022-10-09 22:37:59] piwik.DEBUG: Debug enabled - Input parameters: array (   'idsite' => '4',   'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',   'rec' => '1',   'idgoal' => '0',   'ec_items' => '[["JELB-TGB-60-SMP-SM-5","Turmeric & Ginger Gummies","","86.99",1]]',   'revenue' => '86.99',   'ec_st' => '86.99',   'ec_tx' => '0.00',   'ec_sh' => '0.00',   'ec_dt' => '0.00',   'ec_id' => '31930504839333',   'cip' => '98.254.164.14',   'country' => 'us',   'city' => 'Coconut Creek', ) {"params":"array (\\n  'idsite' => '4',\\n  'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',\\n  'rec' => '1',\\n  'idgoal' => '0',\\n  'ec_items' => '[[\\"JELB-TGB-60-SMP-SM-5\\",\\"Turmeric & Ginger Gummies\\",\\"\\",\\"86.99\\",1]]',\\n  'revenue' => '86.99',\\n  'ec_st' => '86.99',\\n  'ec_tx' => '0.00',\\n  'ec_sh' => '0.00',\\n  'ec_dt' => '0.00',\\n  'ec_id' => '31930504839333',\\n  'cip' => '98.254.164.14',\\n  'country' => 'us',\\n  'city' => 'Coconut Creek',\\n)"} {"class":"Piwik\\\\Tracker","request_id":"52e3c"}\n` +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT option_value, option_name FROM `matomo_option` WHERE autoload = 1 ["fetchAll","SELECT option_value, option_name FROM `matomo_option` WHERE autoload = 1"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT * FROM matomo_goal                                 WHERE idsite IN (4)                                       AND deleted = 0 ["fetchAll","SELECT * FROM matomo_goal\\n                                WHERE idsite IN (4)\\n                                      AND deleted = 0"] {"class":"Goals","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Website 4 tracker cache was re-created. [] {"class":"Piwik\\\\Tracker\\\\Cache","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Current datetime: 2022-10-09 22:37:59 {"date":"2022-10-09 22:37:59"} {"class":"Piwik\\\\Tracker","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT option_name, option_value FROM `matomo_option` WHERE option_name LIKE ? ["fetchAll","SELECT option_name, option_value FROM `matomo_option` WHERE option_name LIKE ?"] {"class":"CoreHome","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"UserCountry","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"52e3c"}\n' +
+    '\n' +
+    '[2022-10-09 22:37:59] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE opti'... 28413 more characters
+}
+🎉 We got an order!
+Phew, it came from Shopify!
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    date: 'Sun, 09 Oct 2022 22:49:46 GMT',
+    server: 'Apache/2.4.52 (Ubuntu)',
+    vary: 'Accept-Encoding',
+    'content-length': '4603',
+    connection: 'close',
+    'content-type': 'text/plain;charset=UTF-8',
+    [Symbol(defaults)]: null
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: null },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      'User-Agent': 'axios/1.1.2',
+      'Accept-Encoding': 'gzip, deflate, br',
+      [Symbol(defaults)]: [Object]
+    },
+    method: 'get',
+    url: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=53.98&ec_st=53.98&ec_tx=0.00&ec_sh=0.00&ec_dt=5.99&ec_id=31924878966949&cip=198.37.229.160&country=us&city=Ashland',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'm.splittesting.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'm.splittesting.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      write: [Function: writeAfterFIN],
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 356,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 4819,
+      [Symbol(kBytesWritten)]: 485,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=53.98&ec_st=53.98&ec_tx=0.00&ec_sh=0.00&ec_dt=5.99&ec_id=31924878966949&cip=198.37.229.160&country=us&city=Ashland HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.1.2\r\n' +
+      'Accept-Encoding: gzip, deflate, br\r\n' +
+      'Host: m.splittesting.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=53.98&ec_st=53.98&ec_tx=0.00&ec_sh=0.00&ec_dt=5.99&ec_id=31924878966949&cip=198.37.229.160&country=us&city=Ashland',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=53.98&ec_st=53.98&ec_tx=0.00&ec_sh=0.00&ec_dt=5.99&ec_id=31924878966949&cip=198.37.229.160&country=us&city=Ashland',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'm.splittesting.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=53.98&ec_st=53.98&ec_tx=0.00&ec_sh=0.00&ec_dt=5.99&ec_id=31924878966949&cip=198.37.229.160&country=us&city=Ashland',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: `[2022-10-09 22:49:46] piwik.DEBUG: Debug enabled - Input parameters: array (   'idsite' => '4',   'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',   'rec' => '1',   'idgoal' => '0',   'ec_items' => '[["JELB-TGB-60-SMP-SM-3","Turmeric & Ginger Gummies","","59.97",1]]',   'revenue' => '53.98',   'ec_st' => '53.98',   'ec_tx' => '0.00',   'ec_sh' => '0.00',   'ec_dt' => '5.99',   'ec_id' => '31924878966949',   'cip' => '198.37.229.160',   'country' => 'us',   'city' => 'Ashland', ) {"params":"array (\\n  'idsite' => '4',\\n  'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',\\n  'rec' => '1',\\n  'idgoal' => '0',\\n  'ec_items' => '[[\\"JELB-TGB-60-SMP-SM-3\\",\\"Turmeric & Ginger Gummies\\",\\"\\",\\"59.97\\",1]]',\\n  'revenue' => '53.98',\\n  'ec_st' => '53.98',\\n  'ec_tx' => '0.00',\\n  'ec_sh' => '0.00',\\n  'ec_dt' => '5.99',\\n  'ec_id' => '31924878966949',\\n  'cip' => '198.37.229.160',\\n  'country' => 'us',\\n  'city' => 'Ashland',\\n)"} {"class":"Piwik\\\\Tracker","request_id":"16bba"}\n` +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT option_value, option_name FROM `matomo_option` WHERE autoload = 1 ["fetchAll","SELECT option_value, option_name FROM `matomo_option` WHERE autoload = 1"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT * FROM matomo_goal                                 WHERE idsite IN (4)                                       AND deleted = 0 ["fetchAll","SELECT * FROM matomo_goal\\n                                WHERE idsite IN (4)\\n                                      AND deleted = 0"] {"class":"Goals","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Website 4 tracker cache was re-created. [] {"class":"Piwik\\\\Tracker\\\\Cache","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Current datetime: 2022-10-09 22:49:46 {"date":"2022-10-09 22:49:46"} {"class":"Piwik\\\\Tracker","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT option_name, option_value FROM `matomo_option` WHERE option_name LIKE ? ["fetchAll","SELECT option_name, option_value FROM `matomo_option` WHERE option_name LIKE ?"] {"class":"CoreHome","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"UserCountry","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"16bba"}\n' +
+    '\n' +
+    '[2022-10-09 22:49:46] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = '... 28354 more characters
+}
+🎉 We got an order!
+Phew, it came from Shopify!
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    date: 'Sun, 09 Oct 2022 22:51:11 GMT',
+    server: 'Apache/2.4.52 (Ubuntu)',
+    vary: 'Accept-Encoding',
+    'content-length': '4659',
+    connection: 'close',
+    'content-type': 'text/plain;charset=UTF-8',
+    [Symbol(defaults)]: null
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: null },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      'User-Agent': 'axios/1.1.2',
+      'Accept-Encoding': 'gzip, deflate, br',
+      [Symbol(defaults)]: [Object]
+    },
+    method: 'get',
+    url: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31993152241829&cip=107.77.215.142&country=us&city=St Thomas',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'm.splittesting.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'm.splittesting.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      write: [Function: writeAfterFIN],
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 412,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 4875,
+      [Symbol(kBytesWritten)]: 489,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31993152241829&cip=107.77.215.142&country=us&city=St%20Thomas HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.1.2\r\n' +
+      'Accept-Encoding: gzip, deflate, br\r\n' +
+      'Host: m.splittesting.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31993152241829&cip=107.77.215.142&country=us&city=St%20Thomas',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31993152241829&cip=107.77.215.142&country=us&city=St%20Thomas',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'm.splittesting.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-TGB-60-SMP-SM-1%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%5D&revenue=27.94&ec_st=22.99&ec_tx=0.00&ec_sh=4.95&ec_dt=0.00&ec_id=31993152241829&cip=107.77.215.142&country=us&city=St%20Thomas',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: `[2022-10-09 22:51:11] piwik.DEBUG: Debug enabled - Input parameters: array (   'idsite' => '4',   'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',   'rec' => '1',   'idgoal' => '0',   'ec_items' => '[["JELB-TGB-60-SMP-SM-1","Turmeric & Ginger Gummies","","22.99",1]]',   'revenue' => '27.94',   'ec_st' => '22.99',   'ec_tx' => '0.00',   'ec_sh' => '4.95',   'ec_dt' => '0.00',   'ec_id' => '31993152241829',   'cip' => '107.77.215.142',   'country' => 'us',   'city' => 'St Thomas', ) {"params":"array (\\n  'idsite' => '4',\\n  'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',\\n  'rec' => '1',\\n  'idgoal' => '0',\\n  'ec_items' => '[[\\"JELB-TGB-60-SMP-SM-1\\",\\"Turmeric & Ginger Gummies\\",\\"\\",\\"22.99\\",1]]',\\n  'revenue' => '27.94',\\n  'ec_st' => '22.99',\\n  'ec_tx' => '0.00',\\n  'ec_sh' => '4.95',\\n  'ec_dt' => '0.00',\\n  'ec_id' => '31993152241829',\\n  'cip' => '107.77.215.142',\\n  'country' => 'us',\\n  'city' => 'St Thomas',\\n)"} {"class":"Piwik\\\\Tracker","request_id":"4140a"}\n` +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT option_value, option_name FROM `matomo_option` WHERE autoload = 1 ["fetchAll","SELECT option_value, option_name FROM `matomo_option` WHERE autoload = 1"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT * FROM matomo_goal                                 WHERE idsite IN (4)                                       AND deleted = 0 ["fetchAll","SELECT * FROM matomo_goal\\n                                WHERE idsite IN (4)\\n                                      AND deleted = 0"] {"class":"Goals","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Website 4 tracker cache was re-created. [] {"class":"Piwik\\\\Tracker\\\\Cache","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Current datetime: 2022-10-09 22:51:11 {"date":"2022-10-09 22:51:11"} {"class":"Piwik\\\\Tracker","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT option_name, option_value FROM `matomo_option` WHERE option_name LIKE ? ["fetchAll","SELECT option_name, option_value FROM `matomo_option` WHERE option_name LIKE ?"] {"class":"CoreHome","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"UserCountry","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"4140a"}\n' +
+    '\n' +
+    '[2022-10-09 22:51:11] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_nam'... 28392 more characters
+}
+🎉 We got an order!
+Phew, it came from Shopify!
+🎉 We got an order!
+Phew, it came from Shopify!
+🎉 We got an order!
+Phew, it came from Shopify!
+🎉 We got an order!
+Phew, it came from Shopify!
+🎉 We got an order!
+Phew, it came from Shopify!
+🎉 We got an order!
+Phew, it came from Shopify!
+🎉 We got an order!
+Phew, it came from Shopify!
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    date: 'Sun, 09 Oct 2022 23:30:54 GMT',
+    server: 'Apache/2.4.52 (Ubuntu)',
+    vary: 'Accept-Encoding',
+    'content-length': '4703',
+    connection: 'close',
+    'content-type': 'text/plain;charset=UTF-8',
+    [Symbol(defaults)]: null
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: null },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      'User-Agent': 'axios/1.1.2',
+      'Accept-Encoding': 'gzip, deflate, br',
+      [Symbol(defaults)]: [Object]
+    },
+    method: 'get',
+    url: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-CO-60-FS-SM-1%22%2C%22Collagen%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=82.96&ec_st=82.96&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31977955426469&cip=71.219.85.232&country=us&city=North Garden',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'm.splittesting.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'm.splittesting.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      write: [Function: writeAfterFIN],
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 1086,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 4919,
+      [Symbol(kBytesWritten)]: 578,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-CO-60-FS-SM-1%22%2C%22Collagen%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=82.96&ec_st=82.96&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31977955426469&cip=71.219.85.232&country=us&city=North%20Garden HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.1.2\r\n' +
+      'Accept-Encoding: gzip, deflate, br\r\n' +
+      'Host: m.splittesting.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-CO-60-FS-SM-1%22%2C%22Collagen%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=82.96&ec_st=82.96&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31977955426469&cip=71.219.85.232&country=us&city=North%20Garden',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-CO-60-FS-SM-1%22%2C%22Collagen%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=82.96&ec_st=82.96&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31977955426469&cip=71.219.85.232&country=us&city=North%20Garden',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'm.splittesting.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-CO-60-FS-SM-1%22%2C%22Collagen%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=82.96&ec_st=82.96&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31977955426469&cip=71.219.85.232&country=us&city=North%20Garden',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: `[2022-10-09 23:30:54] piwik.DEBUG: Debug enabled - Input parameters: array (   'idsite' => '4',   'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',   'rec' => '1',   'idgoal' => '0',   'ec_items' => '[["JELB-CO-60-FS-SM-1","Collagen Gummies","","22.99",1],["JELB-TGB-60-SMP-SM-3","Turmeric & Ginger Gummies","","59.97",1]]',   'revenue' => '82.96',   'ec_st' => '82.96',   'ec_tx' => '0.00',   'ec_sh' => '0.00',   'ec_dt' => '0.00',   'ec_id' => '31977955426469',   'cip' => '71.219.85.232',   'country' => 'us',   'city' => 'North Garden', ) {"params":"array (\\n  'idsite' => '4',\\n  'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',\\n  'rec' => '1',\\n  'idgoal' => '0',\\n  'ec_items' => '[[\\"JELB-CO-60-FS-SM-1\\",\\"Collagen Gummies\\",\\"\\",\\"22.99\\",1],[\\"JELB-TGB-60-SMP-SM-3\\",\\"Turmeric & Ginger Gummies\\",\\"\\",\\"59.97\\",1]]',\\n  'revenue' => '82.96',\\n  'ec_st' => '82.96',\\n  'ec_tx' => '0.00',\\n  'ec_sh' => '0.00',\\n  'ec_dt' => '0.00',\\n  'ec_id' => '31977955426469',\\n  'cip' => '71.219.85.232',\\n  'country' => 'us',\\n  'city' => 'North Garden',\\n)"} {"class":"Piwik\\\\Tracker","request_id":"c0216"}\n` +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT option_value, option_name FROM `matomo_option` WHERE autoload = 1 ["fetchAll","SELECT option_value, option_name FROM `matomo_option` WHERE autoload = 1"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT * FROM matomo_goal                                 WHERE idsite IN (4)                                       AND deleted = 0 ["fetchAll","SELECT * FROM matomo_goal\\n                                WHERE idsite IN (4)\\n                                      AND deleted = 0"] {"class":"Goals","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Website 4 tracker cache was re-created. [] {"class":"Piwik\\\\Tracker\\\\Cache","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Current datetime: 2022-10-09 23:30:54 {"date":"2022-10-09 23:30:54"} {"class":"Piwik\\\\Tracker","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT option_name, option_value FROM `matomo_option` WHERE option_name LIKE ? ["fetchAll","SELECT option_name, option_value FROM `matomo_option` WHERE option_name LIKE ?"] {"class":"CoreHome","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"UserCountry","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"c0216"}\n' +
+    '\n' +
+    '[2022-10-09 23:30:54] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT opti'... 28694 more characters
+}
+🎉 We got an order!
+Phew, it came from Shopify!
+{
+  status: 200,
+  statusText: 'OK',
+  headers: AxiosHeaders {
+    date: 'Sun, 09 Oct 2022 23:31:33 GMT',
+    server: 'Apache/2.4.52 (Ubuntu)',
+    vary: 'Accept-Encoding',
+    'content-length': '4495',
+    connection: 'close',
+    'content-type': 'text/plain;charset=UTF-8',
+    [Symbol(defaults)]: null
+  },
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [Function: httpAdapter],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: null },
+    validateStatus: [Function: validateStatus],
+    headers: AxiosHeaders {
+      'User-Agent': 'axios/1.1.2',
+      'Accept-Encoding': 'gzip, deflate, br',
+      [Symbol(defaults)]: [Object]
+    },
+    method: 'get',
+    url: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-CO-60-FS-SM-1%22%2C%22Collagen%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=82.96&ec_st=82.96&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31977955426469&cip=71.219.85.232&country=us&city=North Garden',
+    data: undefined
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      prefinish: [Function: requestOnPrefinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: true,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: false,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    _contentLength: 0,
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'm.splittesting.com',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'm.splittesting.com',
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: null,
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      parser: null,
+      _httpMessage: [Circular *1],
+      write: [Function: writeAfterFIN],
+      [Symbol(res)]: null,
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: 1142,
+      [Symbol(kHandle)]: null,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 4711,
+      [Symbol(kBytesWritten)]: 578,
+      [Symbol(connect-options)]: [Object],
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _header: 'GET /matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-CO-60-FS-SM-1%22%2C%22Collagen%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=82.96&ec_st=82.96&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31977955426469&cip=71.219.85.232&country=us&city=North%20Garden HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'User-Agent: axios/1.1.2\r\n' +
+      'Accept-Encoding: gzip, deflate, br\r\n' +
+      'Host: m.splittesting.com\r\n' +
+      'Connection: close\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: false,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 0,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'GET',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    path: '/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-CO-60-FS-SM-1%22%2C%22Collagen%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=82.96&ec_st=82.96&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31977955426469&cip=71.219.85.232&country=us&city=North%20Garden',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: [TLSSocket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 200,
+      statusMessage: 'OK',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-CO-60-FS-SM-1%22%2C%22Collagen%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=82.96&ec_st=82.96&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31977955426469&cip=71.219.85.232&country=us&city=North%20Garden',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 14,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'm.splittesting.com',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 0,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://m.splittesting.com/matomo.php?idsite=4&token_auth=a1987d708dffb3cad035b10cacce7b63&rec=1&idgoal=0&ec_items=%5B%5B%22JELB-CO-60-FS-SM-1%22%2C%22Collagen%20Gummies%22%2C%22%22%2C%2222.99%22%2C1%5D%2C%5B%22JELB-TGB-60-SMP-SM-3%22%2C%22Turmeric%20%26%20Ginger%20Gummies%22%2C%22%22%2C%2259.97%22%2C1%5D%5D&revenue=82.96&ec_st=82.96&ec_tx=0.00&ec_sh=0.00&ec_dt=0.00&ec_id=31977955426469&cip=71.219.85.232&country=us&city=North%20Garden',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'user-agent': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(kUniqueHeaders)]: null
+  },
+  data: `[2022-10-09 23:31:33] piwik.DEBUG: Debug enabled - Input parameters: array (   'idsite' => '4',   'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',   'rec' => '1',   'idgoal' => '0',   'ec_items' => '[["JELB-CO-60-FS-SM-1","Collagen Gummies","","22.99",1],["JELB-TGB-60-SMP-SM-3","Turmeric & Ginger Gummies","","59.97",1]]',   'revenue' => '82.96',   'ec_st' => '82.96',   'ec_tx' => '0.00',   'ec_sh' => '0.00',   'ec_dt' => '0.00',   'ec_id' => '31977955426469',   'cip' => '71.219.85.232',   'country' => 'us',   'city' => 'North Garden', ) {"params":"array (\\n  'idsite' => '4',\\n  'token_auth' => 'a1987d708dffb3cad035b10cacce7b63',\\n  'rec' => '1',\\n  'idgoal' => '0',\\n  'ec_items' => '[[\\"JELB-CO-60-FS-SM-1\\",\\"Collagen Gummies\\",\\"\\",\\"22.99\\",1],[\\"JELB-TGB-60-SMP-SM-3\\",\\"Turmeric & Ginger Gummies\\",\\"\\",\\"59.97\\",1]]',\\n  'revenue' => '82.96',\\n  'ec_st' => '82.96',\\n  'ec_tx' => '0.00',\\n  'ec_sh' => '0.00',\\n  'ec_dt' => '0.00',\\n  'ec_id' => '31977955426469',\\n  'cip' => '71.219.85.232',\\n  'country' => 'us',\\n  'city' => 'North Garden',\\n)"} {"class":"Piwik\\\\Tracker","request_id":"932a3"}\n` +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT option_value, option_name FROM `matomo_option` WHERE autoload = 1 ["fetchAll","SELECT option_value, option_name FROM `matomo_option` WHERE autoload = 1"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"SitesManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT * FROM matomo_goal                                 WHERE idsite IN (4)                                       AND deleted = 0 ["fetchAll","SELECT * FROM matomo_goal\\n                                WHERE idsite IN (4)\\n                                      AND deleted = 0"] {"class":"Goals","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Website 4 tracker cache was re-created. [] {"class":"Piwik\\\\Tracker\\\\Cache","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Current datetime: 2022-10-09 23:31:33 {"date":"2022-10-09 23:31:33"} {"class":"Piwik\\\\Tracker","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Executing Piwik\\Plugins\\CoreHome\\Tracker\\VisitRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Executing Piwik\\Plugins\\IntranetMeasurable\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Executing Piwik\\Plugins\\Actions\\Tracker\\ActionsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Executing Piwik\\Plugins\\Goals\\Tracker\\GoalsRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Executing Piwik\\Plugins\\Ecommerce\\Tracker\\EcommerceRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Executing Piwik\\Plugins\\SitesManager\\Tracker\\SitesManagerRequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Executing Piwik\\Plugins\\PrivacyManager\\Tracker\\RequestProcessor::manipulateRequest()... [] {"class":"Piwik\\\\Common","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchAll() executing SQL: SELECT option_name, option_value FROM `matomo_option` WHERE option_name LIKE ? ["fetchAll","SELECT option_name, option_value FROM `matomo_option` WHERE option_name LIKE ?"] {"class":"CoreHome","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"UserCountry","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT option_value FROM `matomo_option` WHERE option_name = ? ["fetchOne","SELECT option_value FROM `matomo_option` WHERE option_name = ?"] {"class":"PrivacyManager","request_id":"932a3"}\n' +
+    '\n' +
+    '[2022-10-09 23:31:33] piwik.DEBUG: Db::fetchOne() executing SQL: SELECT opti'... 27762 more characters
+}
